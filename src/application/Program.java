@@ -26,7 +26,7 @@ public class Program {
 	    	
 	    	int rowsAffected = st.executeUpdate();
 	    	
-	    	System.out.println("Done! Rows affected: " + rowsAffected);
+	    	System.out.print("Done! Rows affected: " + rowsAffected);
 	    }	
 	    catch(SQLException e) {
 	    	e.printStackTrace();
